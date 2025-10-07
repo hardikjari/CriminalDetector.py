@@ -1,0 +1,245 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\Hackathon\\Criminal_AI_Project\\Criminal_AI_Project_API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0324D5AC-168E-4CEF-84D3-1B69A7435A8F}|Criminal_AI_Project_API\\Criminal_AI_Project_API.csproj|g:\\hackathon\\criminal_ai_project\\criminal_ai_project_api\\criminal_ai_project_api\\criminalsurveillanceapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0324D5AC-168E-4CEF-84D3-1B69A7435A8F}|Criminal_AI_Project_API\\Criminal_AI_Project_API.csproj|solutionrelative:criminal_ai_project_api\\criminalsurveillanceapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0324D5AC-168E-4CEF-84D3-1B69A7435A8F}|Criminal_AI_Project_API\\Criminal_AI_Project_API.csproj|g:\\hackathon\\criminal_ai_project\\criminal_ai_project_api\\criminal_ai_project_api\\criminalsurveillanceapi\\models\\entities\\adminmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0324D5AC-168E-4CEF-84D3-1B69A7435A8F}|Criminal_AI_Project_API\\Criminal_AI_Project_API.csproj|solutionrelative:criminal_ai_project_api\\criminalsurveillanceapi\\models\\entities\\adminmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0324D5AC-168E-4CEF-84D3-1B69A7435A8F}|Criminal_AI_Project_API\\Criminal_AI_Project_API.csproj|g:\\hackathon\\criminal_ai_project\\criminal_ai_project_api\\criminal_ai_project_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0324D5AC-168E-4CEF-84D3-1B69A7435A8F}|Criminal_AI_Project_API\\Criminal_AI_Project_API.csproj|solutionrelative:criminal_ai_project_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0324D5AC-168E-4CEF-84D3-1B69A7435A8F}|Criminal_AI_Project_API\\Criminal_AI_Project_API.csproj|g:\\hackathon\\criminal_ai_project\\criminal_ai_project_api\\criminal_ai_project_api\\criminalsurveillanceapi\\models\\dtos\\criminalcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0324D5AC-168E-4CEF-84D3-1B69A7435A8F}|Criminal_AI_Project_API\\Criminal_AI_Project_API.csproj|solutionrelative:criminal_ai_project_api\\criminalsurveillanceapi\\models\\dtos\\criminalcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0324D5AC-168E-4CEF-84D3-1B69A7435A8F}|Criminal_AI_Project_API\\Criminal_AI_Project_API.csproj|g:\\hackathon\\criminal_ai_project\\criminal_ai_project_api\\criminal_ai_project_api\\criminalsurveillanceapi\\models\\entities\\aitrainingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0324D5AC-168E-4CEF-84D3-1B69A7435A8F}|Criminal_AI_Project_API\\Criminal_AI_Project_API.csproj|solutionrelative:criminal_ai_project_api\\criminalsurveillanceapi\\models\\entities\\aitrainingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0324D5AC-168E-4CEF-84D3-1B69A7435A8F}|Criminal_AI_Project_API\\Criminal_AI_Project_API.csproj|g:\\hackathon\\criminal_ai_project\\criminal_ai_project_api\\criminal_ai_project_api\\criminalsurveillanceapi\\models\\entities\\criminalcrimesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0324D5AC-168E-4CEF-84D3-1B69A7435A8F}|Criminal_AI_Project_API\\Criminal_AI_Project_API.csproj|solutionrelative:criminal_ai_project_api\\criminalsurveillanceapi\\models\\entities\\criminalcrimesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0324D5AC-168E-4CEF-84D3-1B69A7435A8F}|Criminal_AI_Project_API\\Criminal_AI_Project_API.csproj|g:\\hackathon\\criminal_ai_project\\criminal_ai_project_api\\criminal_ai_project_api\\criminalsurveillanceapi\\models\\entities\\criminaleventmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0324D5AC-168E-4CEF-84D3-1B69A7435A8F}|Criminal_AI_Project_API\\Criminal_AI_Project_API.csproj|solutionrelative:criminal_ai_project_api\\criminalsurveillanceapi\\models\\entities\\criminaleventmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0324D5AC-168E-4CEF-84D3-1B69A7435A8F}|Criminal_AI_Project_API\\Criminal_AI_Project_API.csproj|g:\\hackathon\\criminal_ai_project\\criminal_ai_project_api\\criminal_ai_project_api\\criminalsurveillanceapi\\models\\dtos\\criminaleventreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0324D5AC-168E-4CEF-84D3-1B69A7435A8F}|Criminal_AI_Project_API\\Criminal_AI_Project_API.csproj|solutionrelative:criminal_ai_project_api\\criminalsurveillanceapi\\models\\dtos\\criminaleventreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0324D5AC-168E-4CEF-84D3-1B69A7435A8F}|Criminal_AI_Project_API\\Criminal_AI_Project_API.csproj|g:\\hackathon\\criminal_ai_project\\criminal_ai_project_api\\criminal_ai_project_api\\criminalsurveillanceapi\\models\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0324D5AC-168E-4CEF-84D3-1B69A7435A8F}|Criminal_AI_Project_API\\Criminal_AI_Project_API.csproj|solutionrelative:criminal_ai_project_api\\criminalsurveillanceapi\\models\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0324D5AC-168E-4CEF-84D3-1B69A7435A8F}|Criminal_AI_Project_API\\Criminal_AI_Project_API.csproj|g:\\hackathon\\criminal_ai_project\\criminal_ai_project_api\\criminal_ai_project_api\\criminalsurveillanceapi\\models\\dtos\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0324D5AC-168E-4CEF-84D3-1B69A7435A8F}|Criminal_AI_Project_API\\Criminal_AI_Project_API.csproj|solutionrelative:criminal_ai_project_api\\criminalsurveillanceapi\\models\\dtos\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0324D5AC-168E-4CEF-84D3-1B69A7435A8F}|Criminal_AI_Project_API\\Criminal_AI_Project_API.csproj|g:\\hackathon\\criminal_ai_project\\criminal_ai_project_api\\criminal_ai_project_api\\criminalsurveillanceapi\\models\\dtos\\sievemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0324D5AC-168E-4CEF-84D3-1B69A7435A8F}|Criminal_AI_Project_API\\Criminal_AI_Project_API.csproj|solutionrelative:criminal_ai_project_api\\criminalsurveillanceapi\\models\\dtos\\sievemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0324D5AC-168E-4CEF-84D3-1B69A7435A8F}|Criminal_AI_Project_API\\Criminal_AI_Project_API.csproj|g:\\hackathon\\criminal_ai_project\\criminal_ai_project_api\\criminal_ai_project_api\\criminalsurveillanceapi\\controllers\\criminalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0324D5AC-168E-4CEF-84D3-1B69A7435A8F}|Criminal_AI_Project_API\\Criminal_AI_Project_API.csproj|solutionrelative:criminal_ai_project_api\\criminalsurveillanceapi\\controllers\\criminalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0324D5AC-168E-4CEF-84D3-1B69A7435A8F}|Criminal_AI_Project_API\\Criminal_AI_Project_API.csproj|g:\\hackathon\\criminal_ai_project\\criminal_ai_project_api\\criminal_ai_project_api\\configurations\\dependencyinjectionconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0324D5AC-168E-4CEF-84D3-1B69A7435A8F}|Criminal_AI_Project_API\\Criminal_AI_Project_API.csproj|solutionrelative:criminal_ai_project_api\\configurations\\dependencyinjectionconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0324D5AC-168E-4CEF-84D3-1B69A7435A8F}|Criminal_AI_Project_API\\Criminal_AI_Project_API.csproj|g:\\hackathon\\criminal_ai_project\\criminal_ai_project_api\\criminal_ai_project_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0324D5AC-168E-4CEF-84D3-1B69A7435A8F}|Criminal_AI_Project_API\\Criminal_AI_Project_API.csproj|solutionrelative:criminal_ai_project_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 378,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CriminalCreateDTO.cs",
+              "DocumentMoniker": "G:\\Hackathon\\Criminal_AI_Project\\Criminal_AI_Project_API\\Criminal_AI_Project_API\\CriminalSurveillanceAPI\\Models\\DTOs\\CriminalCreateDTO.cs",
+              "RelativeDocumentMoniker": "Criminal_AI_Project_API\\CriminalSurveillanceAPI\\Models\\DTOs\\CriminalCreateDTO.cs",
+              "ToolTip": "G:\\Hackathon\\Criminal_AI_Project\\Criminal_AI_Project_API\\Criminal_AI_Project_API\\CriminalSurveillanceAPI\\Models\\DTOs\\CriminalCreateDTO.cs",
+              "RelativeToolTip": "Criminal_AI_Project_API\\CriminalSurveillanceAPI\\Models\\DTOs\\CriminalCreateDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T16:50:08.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "G:\\Hackathon\\Criminal_AI_Project\\Criminal_AI_Project_API\\Criminal_AI_Project_API\\CriminalSurveillanceAPI\\Models\\DTOs\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "Criminal_AI_Project_API\\CriminalSurveillanceAPI\\Models\\DTOs\\LoginDTO.cs",
+              "ToolTip": "G:\\Hackathon\\Criminal_AI_Project\\Criminal_AI_Project_API\\Criminal_AI_Project_API\\CriminalSurveillanceAPI\\Models\\DTOs\\LoginDTO.cs",
+              "RelativeToolTip": "Criminal_AI_Project_API\\CriminalSurveillanceAPI\\Models\\DTOs\\LoginDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T16:46:44.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PagedResult.cs",
+              "DocumentMoniker": "G:\\Hackathon\\Criminal_AI_Project\\Criminal_AI_Project_API\\Criminal_AI_Project_API\\CriminalSurveillanceAPI\\Models\\DTOs\\PagedResult.cs",
+              "RelativeDocumentMoniker": "Criminal_AI_Project_API\\CriminalSurveillanceAPI\\Models\\DTOs\\PagedResult.cs",
+              "ToolTip": "G:\\Hackathon\\Criminal_AI_Project\\Criminal_AI_Project_API\\Criminal_AI_Project_API\\CriminalSurveillanceAPI\\Models\\DTOs\\PagedResult.cs",
+              "RelativeToolTip": "Criminal_AI_Project_API\\CriminalSurveillanceAPI\\Models\\DTOs\\PagedResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T16:46:42.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SieveModel.cs",
+              "DocumentMoniker": "G:\\Hackathon\\Criminal_AI_Project\\Criminal_AI_Project_API\\Criminal_AI_Project_API\\CriminalSurveillanceAPI\\Models\\DTOs\\SieveModel.cs",
+              "RelativeDocumentMoniker": "Criminal_AI_Project_API\\CriminalSurveillanceAPI\\Models\\DTOs\\SieveModel.cs",
+              "ToolTip": "G:\\Hackathon\\Criminal_AI_Project\\Criminal_AI_Project_API\\Criminal_AI_Project_API\\CriminalSurveillanceAPI\\Models\\DTOs\\SieveModel.cs",
+              "RelativeToolTip": "Criminal_AI_Project_API\\CriminalSurveillanceAPI\\Models\\DTOs\\SieveModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T16:46:36.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CriminalEventModel.cs",
+              "DocumentMoniker": "G:\\Hackathon\\Criminal_AI_Project\\Criminal_AI_Project_API\\Criminal_AI_Project_API\\CriminalSurveillanceAPI\\Models\\Entities\\CriminalEventModel.cs",
+              "RelativeDocumentMoniker": "Criminal_AI_Project_API\\CriminalSurveillanceAPI\\Models\\Entities\\CriminalEventModel.cs",
+              "ToolTip": "G:\\Hackathon\\Criminal_AI_Project\\Criminal_AI_Project_API\\Criminal_AI_Project_API\\CriminalSurveillanceAPI\\Models\\Entities\\CriminalEventModel.cs",
+              "RelativeToolTip": "Criminal_AI_Project_API\\CriminalSurveillanceAPI\\Models\\Entities\\CriminalEventModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T16:46:28.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CriminalCrimesModel.cs",
+              "DocumentMoniker": "G:\\Hackathon\\Criminal_AI_Project\\Criminal_AI_Project_API\\Criminal_AI_Project_API\\CriminalSurveillanceAPI\\Models\\Entities\\CriminalCrimesModel.cs",
+              "RelativeDocumentMoniker": "Criminal_AI_Project_API\\CriminalSurveillanceAPI\\Models\\Entities\\CriminalCrimesModel.cs",
+              "ToolTip": "G:\\Hackathon\\Criminal_AI_Project\\Criminal_AI_Project_API\\Criminal_AI_Project_API\\CriminalSurveillanceAPI\\Models\\Entities\\CriminalCrimesModel.cs",
+              "RelativeToolTip": "Criminal_AI_Project_API\\CriminalSurveillanceAPI\\Models\\Entities\\CriminalCrimesModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T16:46:26.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AiTrainingModel.cs",
+              "DocumentMoniker": "G:\\Hackathon\\Criminal_AI_Project\\Criminal_AI_Project_API\\Criminal_AI_Project_API\\CriminalSurveillanceAPI\\Models\\Entities\\AiTrainingModel.cs",
+              "RelativeDocumentMoniker": "Criminal_AI_Project_API\\CriminalSurveillanceAPI\\Models\\Entities\\AiTrainingModel.cs",
+              "ToolTip": "G:\\Hackathon\\Criminal_AI_Project\\Criminal_AI_Project_API\\Criminal_AI_Project_API\\CriminalSurveillanceAPI\\Models\\Entities\\AiTrainingModel.cs",
+              "RelativeToolTip": "Criminal_AI_Project_API\\CriminalSurveillanceAPI\\Models\\Entities\\AiTrainingModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T16:46:22.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminModel.cs",
+              "DocumentMoniker": "G:\\Hackathon\\Criminal_AI_Project\\Criminal_AI_Project_API\\Criminal_AI_Project_API\\CriminalSurveillanceAPI\\Models\\Entities\\AdminModel.cs",
+              "RelativeDocumentMoniker": "Criminal_AI_Project_API\\CriminalSurveillanceAPI\\Models\\Entities\\AdminModel.cs",
+              "ToolTip": "G:\\Hackathon\\Criminal_AI_Project\\Criminal_AI_Project_API\\Criminal_AI_Project_API\\CriminalSurveillanceAPI\\Models\\Entities\\AdminModel.cs",
+              "RelativeToolTip": "Criminal_AI_Project_API\\CriminalSurveillanceAPI\\Models\\Entities\\AdminModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T16:46:20.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CriminalEventReadDTO.cs",
+              "DocumentMoniker": "G:\\Hackathon\\Criminal_AI_Project\\Criminal_AI_Project_API\\Criminal_AI_Project_API\\CriminalSurveillanceAPI\\Models\\DTOs\\CriminalEventReadDTO.cs",
+              "RelativeDocumentMoniker": "Criminal_AI_Project_API\\CriminalSurveillanceAPI\\Models\\DTOs\\CriminalEventReadDTO.cs",
+              "ToolTip": "G:\\Hackathon\\Criminal_AI_Project\\Criminal_AI_Project_API\\Criminal_AI_Project_API\\CriminalSurveillanceAPI\\Models\\DTOs\\CriminalEventReadDTO.cs",
+              "RelativeToolTip": "Criminal_AI_Project_API\\CriminalSurveillanceAPI\\Models\\DTOs\\CriminalEventReadDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T16:46:12.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "G:\\Hackathon\\Criminal_AI_Project\\Criminal_AI_Project_API\\Criminal_AI_Project_API\\CriminalSurveillanceAPI\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Criminal_AI_Project_API\\CriminalSurveillanceAPI\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "G:\\Hackathon\\Criminal_AI_Project\\Criminal_AI_Project_API\\Criminal_AI_Project_API\\CriminalSurveillanceAPI\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Criminal_AI_Project_API\\CriminalSurveillanceAPI\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAoAAABgZmZmZmYuwBIAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T16:46:00.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CriminalsController.cs",
+              "DocumentMoniker": "G:\\Hackathon\\Criminal_AI_Project\\Criminal_AI_Project_API\\Criminal_AI_Project_API\\CriminalSurveillanceAPI\\Controllers\\CriminalsController.cs",
+              "RelativeDocumentMoniker": "Criminal_AI_Project_API\\CriminalSurveillanceAPI\\Controllers\\CriminalsController.cs",
+              "ToolTip": "G:\\Hackathon\\Criminal_AI_Project\\Criminal_AI_Project_API\\Criminal_AI_Project_API\\CriminalSurveillanceAPI\\Controllers\\CriminalsController.cs",
+              "RelativeToolTip": "Criminal_AI_Project_API\\CriminalSurveillanceAPI\\Controllers\\CriminalsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T16:45:56.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\Hackathon\\Criminal_AI_Project\\Criminal_AI_Project_API\\Criminal_AI_Project_API\\Program.cs",
+              "RelativeDocumentMoniker": "Criminal_AI_Project_API\\Program.cs",
+              "ToolTip": "G:\\Hackathon\\Criminal_AI_Project\\Criminal_AI_Project_API\\Criminal_AI_Project_API\\Program.cs",
+              "RelativeToolTip": "Criminal_AI_Project_API\\Program.cs",
+              "ViewState": "AQIAABYAAADAmZmZmZklwC0AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T13:09:41.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DependencyInjectionConfig.cs",
+              "DocumentMoniker": "G:\\Hackathon\\Criminal_AI_Project\\Criminal_AI_Project_API\\Criminal_AI_Project_API\\Configurations\\DependencyInjectionConfig.cs",
+              "RelativeDocumentMoniker": "Criminal_AI_Project_API\\Configurations\\DependencyInjectionConfig.cs",
+              "ToolTip": "G:\\Hackathon\\Criminal_AI_Project\\Criminal_AI_Project_API\\Criminal_AI_Project_API\\Configurations\\DependencyInjectionConfig.cs",
+              "RelativeToolTip": "Criminal_AI_Project_API\\Configurations\\DependencyInjectionConfig.cs",
+              "ViewState": "AQIAABEAAACAmZmZmZkdwBgAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T13:10:11.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "G:\\Hackathon\\Criminal_AI_Project\\Criminal_AI_Project_API\\Criminal_AI_Project_API\\appsettings.json",
+              "RelativeDocumentMoniker": "Criminal_AI_Project_API\\appsettings.json",
+              "ToolTip": "G:\\Hackathon\\Criminal_AI_Project\\Criminal_AI_Project_API\\Criminal_AI_Project_API\\appsettings.json",
+              "RelativeToolTip": "Criminal_AI_Project_API\\appsettings.json",
+              "ViewState": "AQIAAAEAAACAMzMzMzMbwAgAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-04T10:27:20.751Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

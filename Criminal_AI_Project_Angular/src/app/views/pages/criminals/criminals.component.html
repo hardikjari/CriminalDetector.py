@@ -1,0 +1,116 @@
+<nav class="page-breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a routerLink=".">Criminal</a></li>
+    <li class="breadcrumb-item active" aria-current="page">List</li>
+  </ol>
+</nav>
+
+<div class="row">
+  <div class="col-md-8 grid-margin stretch-card">
+    <div class="card">
+      <div class="card-body">
+        <div class="row justify-content-between">
+          <div class="col-sm-12 col-md-4">
+            <h6 class="card-title">Criminals List</h6>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Search" [(ngModel)]="searchValue" (keyup.enter)="search()">
+              <button class="btn btn-primary" type="button" (click)="search()">Search</button>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 text-end">
+            <button class="btn btn-primary" (click)="addCriminal()">Add Criminal</button>
+          </div>
+        </div>
+        <div class="table-responsive">
+          <ngx-datatable
+            class="bootstrap"
+            [rows]="rows"
+            [columnMode]="'force'"
+            [headerHeight]="50"
+            [footerHeight]="50"
+            [rowHeight]="'auto'"
+            [externalPaging]="true"
+            [count]="totalRecords"
+            [offset]="sieveModel.page! - 1"
+            [limit]="sieveModel.pageSize"
+            (page)="setPage($event)">
+            <ngx-datatable-column name="Photo" [width]="80">
+              <ng-template let-row="row" ngx-datatable-cell-template>
+                <img [src]="baseUrl + row.imageUrl" class="img-fluid rounded-circle" style="width: 40px; height: 40px; border-radius: 50%; object-fit: cover;" alt="criminal photo" *ngIf="row.imageUrl">
+              </ng-template>
+            </ngx-datatable-column>
+            <ngx-datatable-column name="Name" prop="criminalName"></ngx-datatable-column>
+            <ngx-datatable-column name="Crime" prop="crime"></ngx-datatable-column>
+            <ngx-datatable-column name="Location" prop="location"></ngx-datatable-column>
+            <ngx-datatable-column name="Date of Crime">
+              <ng-template let-row="row" ngx-datatable-cell-template>
+                {{ row.dateOfCrime | date: 'dd - MM -yyyy | hh:mm a' }}
+              </ng-template>
+            </ngx-datatable-column>
+            <ngx-datatable-column name="Action" [sortable]="false">
+              <ng-template let-row="row" ngx-datatable-cell-template>
+                <a (click)="editCriminal(row)" class="btn btn-link p-0" title="Edit">
+                  <i class="feather icon-edit"></i>
+                </a>
+                <a (click)="deleteCriminal(row)" class="btn btn-link p-0 ms-2 text-danger" title="Delete">
+                  <i class="feather icon-trash-2"></i>
+                </a>
+                <a (click)="viewDetections(row.guid)" class="btn btn-link p-0 ms-2" title="View Detections">
+                  <i class="feather icon-eye"></i>
+                </a>
+              </ng-template>
+            </ngx-datatable-column>
+          </ngx-datatable>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4 grid-margin stretch-card">
+    <div class="card">
+      <div class="card-body">
+        <h6 class="card-title">Detected Criminal Details</h6>
+        <div [ngSwitch]="detectionDataState">
+          <div *ngSwitchCase="'loading'" class="text-center">
+            <div class="spinner-border" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+            <p>Loading detection data...</p>
+          </div>
+          <div *ngSwitchCase="'found'">
+            <div *ngIf="selectedDetectedCriminal" class="card mb-3">
+              <div class="card-header">
+                <strong>GUID:</strong> {{ selectedDetectedCriminal.guid }}
+              </div>
+              <div class="card-body">
+                <div *ngFor="let session of selectedDetectedCriminal.sessions">
+                  <h5 class="card-subtitle mb-2 text-muted">Session: {{ session.session | date:'medium' }}</h5>
+                  <div class="row">
+                    <div *ngFor="let file of session.files" class="col-md-6 mb-3 text-center">
+                      <a href="{{ file.url }}" target="_blank">
+                        <img [src]="file.url" class="img-fluid rounded" alt="{{ file.fileName }}" style="height: 120px; width: 100%; object-fit: cover;">
+                      </a>
+                      <p class="small mt-1 mb-0">{{ file.fileName }}</p>
+                      <p class="small text-muted">{{ file.size }} bytes</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div *ngSwitchCase="'notFound'">
+            <p>No detection data found for this criminal.</p>
+          </div>
+          <div *ngSwitchCase="'error'">
+            <p class="text-danger">An error occurred while fetching detection data.</p>
+          </div>
+          <div *ngSwitchDefault>
+            <p>Click the <i class="feather icon-eye"></i> icon on a criminal to view their detection details.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+>>>>>>> main
+</div>

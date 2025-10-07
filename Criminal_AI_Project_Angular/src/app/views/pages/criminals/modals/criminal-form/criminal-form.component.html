@@ -1,0 +1,73 @@
+<div class="modal-header">
+  <h4 class="modal-title">{{ criminal ? 'Edit Criminal' : 'Add Criminal' }}</h4>
+  <button type="button" class="btn-close" aria-label="Close" (click)="activeModal.dismiss('Cross click')"></button>
+</div>
+<div class="modal-body">
+  <form [formGroup]="criminalForm" (ngSubmit)="onSubmit()">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="mb-3">
+          <label for="criminalName" class="form-label">Criminal Name</label>
+          <input type="text" id="criminalName" class="form-control" formControlName="criminalName">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="mb-3">
+          <label for="location" class="form-label">Location</label>
+          <input type="text" id="location" class="form-control" formControlName="location">
+        </div>
+      </div>
+    </div>
+    <div class="mb-3">
+      <label for="crime" class="form-label">Crime</label>
+      <textarea id="crime" class="form-control" formControlName="crime"></textarea>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="mb-3">
+          <label for="dateOfCrime" class="form-label">Date of Crime</label>
+          <input type="datetime-local" id="dateOfCrime" class="form-control" formControlName="dateOfCrime" [max]="maxDate">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="mb-3">
+          <label for="imageBase64" class="form-label">Image</label>
+          <input type="file" id="imageBase64" class="form-control" (change)="onFileChange($event)">
+          <div *ngIf="criminal && criminal.imageUrl" class="mt-2">
+            <span>{{ getFileName(criminal.imageUrl) }}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <h4>Crimes</h4>
+    <div formArrayName="crimes">
+      <div *ngFor="let crime of crimes.controls; let i=index" [formGroupName]="i" class="row align-items-center mb-2">
+        <div class="col-md-5">
+          <input type="text" class="form-control" formControlName="crimeType" placeholder="Crime Type">
+        </div>
+        <div class="col-md-6">
+          <textarea class="form-control" formControlName="crimeDescription" placeholder="Crime Description"></textarea>
+        </div>
+        <div class="col-md-1">
+          <button type="button" class="btn btn-danger btn-icon" (click)="removeCrime(i)">
+            <i class="feather icon-trash-2"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <button type="button" class="btn btn-primary btn-icon" (click)="addCrime()">
+      <i class="feather icon-plus"></i>
+    </button>
+
+  </form>
+</div>
+<div class="modal-footer">
+  <button type="button" class="btn btn-light" (click)="activeModal.close('Close click')">Close</button>
+  <button type="submit" class="btn btn-primary" (click)="onSubmit()" [disabled]="!criminalForm.valid || isSubmitting">
+    <span *ngIf="isSubmitting" class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+    {{ isSubmitting ? 'Saving...' : 'Save' }}
+  </button>
+</div>

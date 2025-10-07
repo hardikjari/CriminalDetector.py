@@ -1,0 +1,55 @@
+<div class="container">
+  <div class="row w-100 mx-0 auth-page">
+    <div class="col-md-8 col-xl-6 mx-auto">
+      <div class="card">
+        <div class="row">
+          <div class="col-md-4 pe-md-0">
+            <div class="auth-side-wrapper" [ngStyle]="{ 'background-image': 'url(https://picsum.photos/250/650)' }">
+  
+            </div>
+          </div>
+          <div class="col-md-8 ps-md-0">
+            <div class="auth-form-wrapper px-4 py-5">
+              <a routerLink="." class="nobleui-logo d-block mb-2">Login<span> </span></a>
+              <h5 class="text-secondary fw-normal mb-4">Welcome back! Log in to your account.</h5>
+              <form [formGroup]="loginForm" class="forms-sample" (ngSubmit)="onLoggedin($event)">
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" 
+                         formControlName="email" placeholder="Email">
+                  <div class="text-danger" *ngIf="loginForm.get('email')?.errors?.['required'] && loginForm.get('email')?.touched">
+                    Email is required
+                  </div>
+                  <div class="text-danger" *ngIf="loginForm.get('email')?.errors?.['email'] && loginForm.get('email')?.touched">
+                    Please enter a valid email
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" 
+                         formControlName="password" placeholder="Password">
+                  <div class="text-danger" *ngIf="loginForm.get('password')?.errors?.['required'] && loginForm.get('password')?.touched">
+                    Password is required
+                  </div>
+                </div>
+                <div class="form-check mb-3">
+                  <input type="checkbox" class="form-check-input" id="authCheck" formControlName="rememberMe">
+                  <label class="form-check-label" for="authCheck">
+                    Remember me
+                  </label>
+                </div>
+                <div *ngIf="error" class="alert alert-danger mb-3">
+                  {{error}}
+                </div>
+                <div>
+                  <button type="submit" class="btn btn-primary me-2 mb-2 mb-md-0" 
+                          [disabled]="!loginForm.valid">Login</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,39 @@
+:host {
+  .ngx-datatable.bootstrap {
+    box-shadow: none;
+    font-size: 13px;
+    .datatable-header {
+      background-color: #343a40;
+      color: #fff;
+      .datatable-header-cell {
+        color: #fff;
+      }
+    }
+    .datatable-body {
+      .datatable-body-row {
+        &.active {
+          background-color: #495057;
+          color: #fff;
+        }
+        .datatable-body-cell {
+          color: #fff;
+          img {
+            height: 40px;
+            width: 40px;
+            object-fit: cover;
+            border-radius: 50%;
+          }
+        }
+      }
+    }
+    .datatable-footer {
+      background-color: #343a40;
+      color: #fff;
+      .datatable-pager {
+        a {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
